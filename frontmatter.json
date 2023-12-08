@@ -70,6 +70,65 @@
           ]
         }
       ]
+    },
+    {
+      "name": "blog",
+      "previewPath": "'blog'",
+      "pageBundle": false,
+      "clearEmpty": true,
+      "fields": [
+        {
+          "name": "title",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "single": true,
+          "required": true
+        },
+        {
+          "name": "pubDate",
+          "type": "datetime",
+          "default": "{{now}}",
+          "required": true
+        },
+        {
+          "name": "updatedDate",
+          "type": "datetime",
+          "default": true,
+          "required": true
+        },
+        {
+          "name": "heroImage",
+          "type": "string",
+          "single": true,
+          "required": true,
+          "default": true
+        },
+        {
+          "name": "excerpt",
+          "type": "string",
+          "single": true,
+          "required": true,
+          "default": true
+        },
+        {
+          "name": "headline",
+          "type": "string",
+          "single": true,
+          "required": true,
+          "default": true
+        },
+        {
+          "name": "galleryImages",
+          "type": "list",
+          "required": true,
+          "default": true
+        }
+      ]
     }
   ]
 }
