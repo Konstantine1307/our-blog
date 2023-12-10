@@ -1,0 +1,26 @@
+---
+import Icon from "astro-icon";
+
+---
+
+<template x-for='(image, index) in images'>
+    <div
+      @click='currentImage = image.largeSrc; currentTitle = image.title; currentAlt = image.title; isOpen = true; currentIndex = index'
+      class='flex relative group cursor-pointer'
+      :class='currentClass = image.className'
+    >
+      <img
+        :src='image.src'
+        :alt='image.title'
+        width="400"
+        height="300"
+        class='w-full rounded-lg group group-hover:opacity-75 object-cover'
+       
+      />
+      <div
+        class='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform w-10 h-10 opacity-0 rounded-full bg-primary flex items-center justify-center group-hover:opacity-100 group:hover:ease-in-out group:hover-transition group:hover-duration-300'
+      >
+        <Icon name='mdi:magnify' class='h-6 text-white' />
+      </div>
+    </div>
+  </template>

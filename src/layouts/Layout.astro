@@ -5,6 +5,7 @@ import Footer from '@components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from 'src/consts';
 import Header from '@components/Header.astro';
 import Container from '@components/Container.astro';
+import ToTheTop from '@components/ToTheTop.astro';
 
 
 const prodEnv = import.meta.env.PROD;
@@ -41,7 +42,8 @@ const {
     </style>
   </head>
 
-  <body>
+  <body  x-data="{ isShowing: false}"
+  @scroll.window = "isShowing = (window.pageYOffset > 100) ? true : false">
     <Header />
     <main>
       <Container class='max-w-screen-xl mx-auto pt-16 px-2 md:px-16 lg:px-20'>
@@ -49,6 +51,7 @@ const {
       </Container>
     </main>
     <Footer />
+    <ToTheTop />
   </body>
 </html>
 

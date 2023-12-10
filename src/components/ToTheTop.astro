@@ -1,0 +1,17 @@
+---
+import { Icon } from 'astro-icon';
+---
+
+<button
+  type='button'
+  class='fixed bottom-20 right-10 outline-none border-none'
+  aria-label='back to the the top button'
+  x-data
+  x-show="isShowing"
+  @click="window.scrollTo({top: 0, behavior: 'smooth'})"
+>
+  <Icon
+    name='mdi:arrow-up-bold-circle'
+    class='h-10 bg-cyan-200 hover:bg-box-bg hover:text-red-500 rounded-full transition-all duration-200'
+  />
+</button>
