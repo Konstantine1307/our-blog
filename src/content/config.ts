@@ -15,7 +15,7 @@ const blog = defineCollection({
 		galleryImages: z.array(
 			z.object({
 			  src: z.string(), // Add more specific validations if needed
-			  caption: z.string().optional(),
+			  caption: z.string(),
 			})
 		  ).optional(),
 	}),

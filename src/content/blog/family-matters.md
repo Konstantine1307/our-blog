@@ -5,21 +5,21 @@ pubDate: 2022-12-19T17:29:38.000Z
 heroImage: /hollows-ivan-birthday.webp
 excerpt: Having travelled 12,000 miles it was time for our first family reunion.
 galleryImages:
-    - caption: Balclutha, Leslie's birthplace
-      fieldGroup: galleryImage
-      src: /balclutha-bridge.webp
-    - caption: Ivan Scott & Barbara Hollows - the outlaws!
-      fieldGroup: galleryImage
-      src: /hollows-outlaws.webp
-    - caption: " Johnny hits Gore Johnny hits Gore"
-      fieldGroup: galleryImage
-      src: /johnny-gore.webp
-    - caption: Leslie at his parent's grave.
-      fieldGroup: galleryImage
-      src: /leslie-grave.webp
-    - caption: Leslie at his late grandparents' home
-      fieldGroup: galleryImage
-      src: /yarmouth-street.webp
+  - caption: Balclutha, Leslie's birthplace
+    fieldGroup: galleryImage
+    src: /balclutha-bridge.webp
+  - caption: Ivan Scott & Barbara Hollows - the outlaws!
+    fieldGroup: galleryImage
+    src: /hollows-outlaws.webp
+  - caption: " Johnny hits Gore Johnny hits Gore"
+    fieldGroup: galleryImage
+    src: /johnny-gore.webp
+  - caption: Leslie at his parent's grave.
+    fieldGroup: galleryImage
+    src: /leslie-grave.webp
+  - caption: Leslie at his late grandparents' home
+    fieldGroup: galleryImage
+    src: /yarmouth-street.webp
 ---
 
 ***
