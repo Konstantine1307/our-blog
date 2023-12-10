@@ -17,7 +17,7 @@ const { images } = Astro.props;
     Image Gallery
   </h4>
   <div
-    class='mt-8 flex flex-1 flex-wrap justify-center items-center gap-6 justify-items-center'
+    class='mt-8 flex flex-1 flex-wrap justify-around items-center gap-6 px-2'
   >
     {
       images.map((image) => (
@@ -28,11 +28,11 @@ const { images } = Astro.props;
             <Image
               src={image.src}
               alt={image.caption}
-              width={300}
-              height={250}
+              width={250}
+              height={225}
               class='rounded-lg'
             />
-            <p class='mt-2 max-w-[295px] text-start text-ellipsis text-gray-700 text-sm italic'>
+            <p class='mt-2 max-w-[245px] text-start text-ellipsis text-gray-700 text-sm italic'>
               {image.caption}
             </p>
           </div>

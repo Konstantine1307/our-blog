@@ -17,13 +17,13 @@
         {
           "title": "Source",
           "name": "src",
-          "type": "image"
+          "type": "image",
+          "isPreviewImage": true
         },
         {
           "title": "Caption",
           "name": "caption",
-          "type": "string",
-          "single": true
+          "type": "string"
         }
       ]
     }
