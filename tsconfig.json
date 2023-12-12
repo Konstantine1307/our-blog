@@ -11,9 +11,6 @@
         ],
         "@layouts/*": [
           "src/layouts/*"
-        ],
-        "@consts/*": [
-          "src/consts/*"
         ]
       },
       "jsx": "react-jsx",
