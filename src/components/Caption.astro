@@ -1,9 +1,9 @@
 ---
 type props = {
-    caption: string
+    caption: string;
 }
 
-const { caption } = Astro.props
+const { caption, ...props } = Astro.props
 ---
 
-<p class="text-gray-600 text-sm pl-2 italic -mt-8">{caption}</p>
+<p {...props} class="text-gray-600 text-sm pl-2 italic -mt-8">{caption}</p>
